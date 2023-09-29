@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Martian+Mono:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,600;6..12,700;6..12,800&family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 24px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mode {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 8px;
+}
+
+.theme_title {
+    font-size: 16px;
+    color: #111517;
+    font-weight: 600;
+}
+
+.header_title {
+    color: #111517;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.contents {
+    padding: 48px 0;
+}
+
+.card {
+    width: 244px;
+    height: 316px;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.card:hover {
+    box-shadow: 0 3px 7px 3px rgba(0, 0, 0, 0.3);
+    transform: scale(1.06);
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 75px;
+}
+
+.card_img {
+    margin-bottom: 24px;
+}
+
+.card_title {
+    color: #111517;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+.card_list {
+    margin-left: 24px;
+}
+
+.card_text {
+    color: #111517;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.card_info_text {
+    font-weight: 600;
+}
